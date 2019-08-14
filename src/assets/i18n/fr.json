@@ -1,0 +1,27 @@
+{
+  "MENU": {
+    "home": "Accueil",
+    "hr": "HEURE",
+    "fin": "La finance",
+    "prod": "Production"
+  },
+  "HOME": {
+    "title": "Page d'accueil",
+    "description": "Je suis la page d'accueil"
+  },
+  "FIN": {
+    "title": "Page des finances",
+    "description": "Je suis la page des finances"
+  },
+  "HR": {
+    "title": "Page de ressources humaines",
+    "description": "Je suis la page des ressources humaines"
+  },
+  "PROD": {
+    "title": "Page de production",
+    "description": "Je suis la page de production"
+  },
+  "ALL": {
+    "lang": "La langue"
+  }
+}

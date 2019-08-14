@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Lang: {{locale|uppercase}}</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <!-- <li routerLinkActive="active"><a routerLink="/">Home</a></li> -->
+      <li routerLinkActive="active"><a routerLink="finance" title="I am finance moudle">{{'MENU.fin' | translate}}</a></li>
+      <li routerLinkActive="active"><a routerLink="hr">{{'MENU.hr' | translate}}</a></li>
+      <li routerLinkActive="active"><a routerLink="production">{{'MENU.prod' | translate}}</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="btn-group lang">
+    <button [ngClass]="{'active':locale=='en'}" type="button" class="btn btn-primary"
+      (click)="changeLang('en')"> en</button>
+    <button [ngClass]="{'active':locale=='fr'}" type="button" class="btn btn-primary"
+      (click)="changeLang('fr')">fr</button>
+    <button [ngClass]="{'active':locale=='ar'}" type="button" class="btn btn-primary"
+      (click)="changeLang('ar')">ar</button>
+  </div>
+</div>

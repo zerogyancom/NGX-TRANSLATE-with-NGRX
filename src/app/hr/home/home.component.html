@@ -1,0 +1,16 @@
+<h2>{{'HR.title' | translate}}</h2>
+<div class="panel panel-default">
+  <div class="panel-heading">{{'ALL.lang' | translate}}</div>
+  <div class="panel-body">
+    <div class="container">
+        <div class="btn-group lang">
+          <button [ngClass]="{'active':locale=='en'}" type="button" class="btn btn-warning"
+            (click)="changeLang('en')"> en</button>
+          <button [ngClass]="{'active':locale=='fr'}" type="button" class="btn btn-warning"
+            (click)="changeLang('fr')">fr</button>
+          <button [ngClass]="{'active':locale=='ar'}" type="button" class="btn btn-warning"
+            (click)="changeLang('ar')">ar</button>
+        </div>
+      </div>  
+  </div>
+</div>

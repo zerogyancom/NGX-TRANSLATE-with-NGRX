@@ -1,0 +1,12 @@
+{
+    "page1": {
+      "title": "Je suis titre de la {page 1}",
+      "heading": "Je suis la page 1",
+      "description": "Je suis la description de la page 1"
+    },
+    "page2": {
+      "title": "Je suis titre de la page 1",
+      "heading": "Je suis la page 1",
+      "description": "Je suis la description de la page 1"
+    }
+}

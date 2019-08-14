@@ -1,0 +1,27 @@
+{
+  "MENU": {
+    "home": "Home",
+    "hr": "HR",
+    "fin": "Finance",
+    "prod": "Production"
+  },
+  "HOME": {
+    "title": "Home Page",
+    "description": "I am home page"
+  },
+  "FIN": {
+    "title": "Finance Page",
+    "description": "I am Finance page"
+  },
+  "HR": {
+    "title": "Human Resource Page",
+    "description": "I am HR page"
+  },
+  "PROD": {
+    "title": "Production Page",
+    "description": "I am Production page"
+  },
+  "ALL": {
+    "lang": "Language"
+  }
+}
